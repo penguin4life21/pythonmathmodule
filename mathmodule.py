@@ -39,12 +39,10 @@ def ceil(number):
             return(i)
 
 def floor(number):
-    if (round(number) != number):
-        for i in range(int(round(number)) + 2):
-            if i >= number:
-                return(i - 1)
-    else:
-        return(number)
+  if isinstance(number, int):
+    return int(number)
+  else:
+    return float(int(number))
 
 def ispositive(number):
     string = str(number)
@@ -60,10 +58,9 @@ def isnegative(number):
     else:
         return(False)
 
+def nthrt(number, root):
+    return(number ** float(root ** -1))
 
-
-
-
-
-    
+def sqrt(number):
+    return(number ** 0.5)
 
