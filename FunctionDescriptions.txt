@@ -26,3 +26,9 @@ Will return a boolean value on whether the number is positve or not.
 
 isnegative(number)
 Will return a boolean value on whether the number is postive or not.
+
+sqrt(number)
+Will return the square root of a number.
+
+nthrt(number, root)
+Will return the nth root of a number.
