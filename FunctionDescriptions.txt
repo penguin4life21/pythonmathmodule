@@ -32,3 +32,6 @@ Will return the square root of a number.
 
 nthrt(number, root)
 Will return the nth root of a number.
+
+pi()
+Will return the pi up to the first 10 decimal digits.(3.1415926535)
