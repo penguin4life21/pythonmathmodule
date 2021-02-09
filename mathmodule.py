@@ -38,6 +38,11 @@ def ceil(number):
         if i >= number:
             return(i)
 
+def floor(number):
+    for i in range(int(round(number)) + 2):
+        if i >= number:
+            return(i - 1)
+
 def ispositive(number):
     string = str(number)
     if (string[0] != "-"):
@@ -51,6 +56,9 @@ def isnegative(number):
         return(True)
     else:
         return(False)
+
+
+
 
 
     
