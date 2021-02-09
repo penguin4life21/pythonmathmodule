@@ -16,7 +16,10 @@ mode(list)
 Will return the mode of a list in the form of a float.
 
 ceil(number)
-Will return the smallest integer greater than the number.
+Will return the smallest integer greater than or equal to the number.
+
+floor(number)
+Will return the biggest integer smaller than or equal to the number
 
 ispositive(number)
 Will return a boolean value on whether the number is positve or not.
