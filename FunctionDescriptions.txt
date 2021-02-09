@@ -1,0 +1,25 @@
+These are the following functions offered by my module.
+
+factors(number)
+Will return a list with the factors of a number.
+
+isprime(number)
+Will return a boolean value on whether the number is prime or not.
+
+mean(list)
+Will return the mean of a list in the form of a float.
+
+median(list)
+Will return the median of a list in the form of a float.
+
+mode(list)
+Will return the mode of a list in the form of a float.
+
+ceil(number)
+Will return the smallest integer greater than the number.
+
+ispositive(number)
+Will return a boolean value on whether the number is positve or not.
+
+isnegative(number)
+Will return a boolean value on whether the number is postive or not.
