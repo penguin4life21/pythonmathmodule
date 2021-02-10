@@ -34,4 +34,10 @@ nthrt(number, root)
 Will return the nth root of a number.
 
 pi()
-Will return the pi up to the first 10 decimal digits.(3.1415926535)
+Will return the pi up to the first 10 decimal digits (3.1415926535).
+
+degrees(radians)
+Will convert radians to degrees with an accuracy of 10 decimal digits of pi.
+
+radians(degrees)
+Will convert degrees to radians with an accuracy of 10 decimal digits of pi.
