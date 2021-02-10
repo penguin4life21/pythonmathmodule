@@ -1,5 +1,3 @@
-
-
 def factors(number):
     output = []
     for i in range(1 , number + 1):
@@ -70,4 +68,10 @@ piconstant = 3.1415926535
 def pi():
     return(piconstant)
 
-print(pi())
+RToDRatio = 180 / piconstant
+def degrees(radians):
+    return(RToDRatio * radians)
+
+DToRRatio = piconstant / 180
+def radians(degrees):
+    return(DToRRatio * degrees)
