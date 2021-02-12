@@ -49,13 +49,6 @@ def ispositive(number):
         return False
     else:
         return True
-    
-    
-    string = str(number)
-    if (string[0] != "-"):
-        return(True)
-    else:
-        return(False)
 
 def isnegative(number):
     if number > 0:
