@@ -52,11 +52,10 @@ def ispositive(number):
         return(False)
 
 def isnegative(number):
-    string = str(number)
-    if (string[0] == "-"):
-        return(True)
+    if number > 0:
+        return False
     else:
-        return(False)
+        return True
 
 def nthrt(number, root):
     return(number ** float(root ** -1))
