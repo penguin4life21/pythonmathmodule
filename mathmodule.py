@@ -45,6 +45,12 @@ def floor(number):
     return float(int(number))
 
 def ispositive(number):
+    if number < 0:
+        return False
+    else:
+        return True
+    
+    
     string = str(number)
     if (string[0] != "-"):
         return(True)
