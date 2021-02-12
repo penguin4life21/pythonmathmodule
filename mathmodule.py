@@ -45,10 +45,11 @@ def floor(number):
     return float(int(number))
 
 def ispositive(number):
-    if number < 0:
-        return False
+    string = str(number)
+    if (string[0] != "-"):
+        return(True)
     else:
-        return True
+        return(False)
 
 def isnegative(number):
     if number > 0:
@@ -62,9 +63,9 @@ def nthrt(number, root):
 def sqrt(number):
     return(number ** 0.5)
 
-piconstant = 3.1415926535
 def pi():
-    return(piconstant)
+    pifile = open("pi.txt", "r")
+    return float(pifile.read())
 
 RToDRatio = 180 / piconstant
 def degrees(radians):
