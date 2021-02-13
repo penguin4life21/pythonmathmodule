@@ -72,10 +72,10 @@ def pi(length=0):
         pifile = open("pi.txt", "r")
         return float(pifile.read()[0:(length+2)])
 
-RToDRatio = 180 / piconstant
+RToDRatio = 180 / pi(10)
 def degrees(radians):
     return(RToDRatio * radians)
 
-DToRRatio = piconstant / 180
+DToRRatio = pi(180) / 180
 def radians(degrees):
     return(DToRRatio * degrees)
