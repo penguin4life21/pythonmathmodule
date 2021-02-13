@@ -33,8 +33,8 @@ Will return the square root of a number.
 nthrt(number, root)
 Will return the nth root of a number.
 
-pi()
-Will return the pi up to the first 10 decimal digits (3.1415926535).
+pi(lenght)
+Will return the pi up to the first n decimal digits based on the length inputed.
 
 degrees(radians)
 Will convert radians to degrees with an accuracy of 10 decimal digits of pi.
