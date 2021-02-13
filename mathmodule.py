@@ -79,3 +79,7 @@ def degrees(radians):
 DToRRatio = pi(180) / 180
 def radians(degrees):
     return(DToRRatio * degrees)
+
+def binary(decimal):
+    unformatted = bin(decimal)
+    return(unformatted.replace("0b", "", 1))
