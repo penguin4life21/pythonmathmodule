@@ -82,4 +82,4 @@ def radians(degrees):
 
 def binary(decimal):
     unformatted = bin(decimal)
-    return(unformatted.replace("0b", "", 1))
+    return(int(unformatted[2:]))
