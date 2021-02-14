@@ -6,12 +6,9 @@ def factors(number):
     return(output)
 
 def isprime(number):
-    factors = []
-    for i in range(1, number + 1):
-        if number % i == 0:
-            factors.append(i)
-    if (len(factors) == 2):
-        if factors[0] == 1 and factors[1] == number:
+    factorslist = factors(number)
+    if (len(factorslist) == 2):
+        if factorslist[0] == 1 and factorslist[1] == number:
             return(True)
         else:
             return(False)
@@ -34,14 +31,12 @@ def mode(List):
     return(max(set(List), key=List.count))
 
 def ceil(number):
-    for i in range(int(round(number)) + 2):
-        if i >= number:
-            return(i)
+    if float(int(number)) == number:
+        return float(number)
+    else:
+        return float(int(number))+1
 
 def floor(number):
-  if isinstance(number, int):
-    return int(number)
-  else:
     return float(int(number))
 
 def ispositive(number):
